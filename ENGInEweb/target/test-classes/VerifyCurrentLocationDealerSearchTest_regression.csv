@@ -1,0 +1,2 @@
+Test Name,browser,baseURL,homepagetitle,dealertitle,searchpostcode,services,resultstown
+Verify Dealer Locator Filtering,chrome,m.intpublish-couk.engine.ford.com,Global UX Homepage,Dealer Locator GUX,SS16 5NL,Accident Repair,Basildon

@@ -1,0 +1,2 @@
+Test Name,browser,username,password,PageTitle,MyFordVehiclePageTitle,baseURL,dealer,time,newtime,firstname,lastname,contactnumber,email,selectedservice,bookingconfirmation,bookingcancelled
+Ammend Selected Service Belgium,chrome,mgrif133@ford.com,Automation1,Login to MyFord,My Ford - My Vehicles,intpublish-nlbe.engine.ford.com,FONTAINE L'EVEQUE,09:00,12:00,qaTester,Automation,7951204681,mgrif133@ford.com,Value Service,Bedankt voor uw aanvraag. De referentie van uw afspraak is,Uw afspraak is geannuleerd. U zal weldra een e-mail ontvangen.

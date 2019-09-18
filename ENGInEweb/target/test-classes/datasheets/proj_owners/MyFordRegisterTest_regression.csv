@@ -1,0 +1,2 @@
+Test Name,PageTitle,browser,vin,title,firstName,lastName,email,confirmEmail,newPass,confirmPass
+Test Case: Ford Owners register ,Explore the Ford Range,chrome,WF0JXXWPBJAR07204,Mr,Steve,Jobs,stevejobs2017@test.com,stevejobs2017@test.com,testing123,testing123

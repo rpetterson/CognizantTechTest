@@ -1,0 +1,2 @@
+Test Name,browser,username,password,PageTitle,MyFordVehiclePageTitle,baseURL,vinNumber,mileage,postcode,dealer,firstname,lastname,contactnumber,email,bookingconfirmation,bookingcancelled
+OSB Cancel Service Booking UK,chrome,mgrif133@ford.com,Automation1,Login to MyFord,My Ford - My Vehicles,intpublish-couk.engine.ford.com,WF0LXXGCBLDA21702,55000,SW6,sw19 8ye,qaTester,Automation,7951204681,mgrif133@ford.com,Thank you for booking. Your booking reference number is,You booking has been cancelled.

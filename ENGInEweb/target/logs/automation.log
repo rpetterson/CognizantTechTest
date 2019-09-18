@@ -1,0 +1,107 @@
+2017-04-25 13:27:19 TEST [INFO] Global Properties Set: BrowserTimeOut [3], testPhase [${test.phase}], reportDebug [false]
+
+2017-04-25 13:27:19 REPORTER [INFO] *** configureColour - Configurator select colour Test test being RUN ***
+2017-04-25 13:27:19 REPORTER [INFO] INFO - Info: [Initial Test Properties Set: Environment [intpublish], URL [http://intpublish-couk.engine.ford.com]]
+2017-04-25 13:27:19 REPORTER [INFO] INFO - Info: [Updated Test Properties from CSV: Browser [chrome]]
+2017-04-25 13:27:53 REPORTER [INFO] INFO - Info: [webDriver instantiated using: Browser [chrome], Hostname [localhost], Port [4444], BaseURL [http://intpublish-couk.engine.ford.com]]
+2017-04-25 13:27:57 REPORTER [INFO] INFO - Info: [Opening page http://intpublish-couk.engine.ford.com]
+2017-04-25 13:28:15 REPORTER [INFO] INFO - Info: [Check if page  [http://intpublish-couk.engine.ford.com] is loaded]
+2017-04-25 13:29:01 REPORTER [INFO] INFO - Info: [Clicked on element [By.id: LHMcolor], on Page [Configurator]]
+2017-04-25 13:29:03 REPORTER [INFO] INFO - Info: [Clicked on element [By.selector: [data-selenium='bpCheckBox2']], on Page [Configurator]]
+2017-04-25 13:29:06 REPORTER [INFO] INFO - Info: [Clicked on element [By.id: LHMSummary], on Page [Configurator]]
+2017-04-25 13:29:06 REPORTER [INFO] PASS - StepID:[The correct Colour name is displayed in Summary page]| Expected: []|Actual: []| Info: []
+2017-04-25 13:29:07 REPORTER [INFO] INFO - Info: [*** No errors reported for test [configureColour] test PASS *** 
+]
+2017-04-25 13:29:48 TEST [INFO] Global Properties Set: BrowserTimeOut [3], testPhase [${test.phase}], reportDebug [false]
+
+2017-04-25 13:29:48 REPORTER [INFO] *** configureBodyStyle - Body Style Select test being RUN ***
+2017-04-25 13:29:48 REPORTER [INFO] INFO - Info: [Initial Test Properties Set: Environment [intpublish], URL [http://intpublish-couk.engine.ford.com]]
+2017-04-25 13:29:48 REPORTER [INFO] INFO - Info: [Updated Test Properties from CSV: Browser [chrome]]
+2017-04-25 13:29:50 REPORTER [INFO] INFO - Info: [webDriver instantiated using: Browser [chrome], Hostname [localhost], Port [4444], BaseURL [http://intpublish-couk.engine.ford.com]]
+2017-04-25 13:29:50 REPORTER [INFO] INFO - Info: [Opening page http://intpublish-couk.engine.ford.com]
+2017-04-25 13:29:53 REPORTER [INFO] INFO - Info: [Check if page  [http://intpublish-couk.engine.ford.com] is loaded]
+2017-04-25 13:30:17 REPORTER [INFO] INFO - Info: [Clicked on element [By.id: LHMbody], on Page [Configurator]]
+2017-04-25 13:30:17 REPORTER [INFO] INFO - Info: [Clicked on element [By.selector: [data-selenium='bpCheckBox1']], on Page [Configurator]]
+2017-04-25 13:30:20 REPORTER [INFO] INFO - Info: [Clicked on element [By.id: LHMSummary], on Page [Configurator]]
+2017-04-25 13:30:21 REPORTER [INFO] PASS - StepID:[The correct Body Style is displayed in Summary page]| Expected: []|Actual: []| Info: []
+2017-04-25 13:30:22 REPORTER [INFO] INFO - Info: [*** No errors reported for test [configureBodyStyle] test PASS *** 
+]
+2017-04-25 13:39:27 TEST [INFO] Global Properties Set: BrowserTimeOut [3], testPhase [${test.phase}], reportDebug [false]
+
+2017-04-25 13:39:27 REPORTER [INFO] *** configureEngineTransmission - Engine Select test being RUN ***
+2017-04-25 13:39:27 REPORTER [INFO] INFO - Info: [Initial Test Properties Set: Environment [intpublish], URL [http://intpublish-couk.engine.ford.com]]
+2017-04-25 13:39:27 REPORTER [INFO] INFO - Info: [Updated Test Properties from CSV: Browser [chrome]]
+2017-04-25 13:39:29 REPORTER [INFO] INFO - Info: [webDriver instantiated using: Browser [chrome], Hostname [localhost], Port [4444], BaseURL [http://intpublish-couk.engine.ford.com]]
+2017-04-25 13:39:29 REPORTER [INFO] INFO - Info: [Opening page http://intpublish-couk.engine.ford.com]
+2017-04-25 13:39:32 REPORTER [INFO] INFO - Info: [Check if page  [http://intpublish-couk.engine.ford.com] is loaded]
+2017-04-25 13:39:38 REPORTER [INFO] INFO - Info: [Clicked on element [By.id: LHMet], on Page [Configurator]]
+2017-04-25 13:39:38 REPORTER [INFO] INFO - Info: [Clicked on element [By.selector: [data-selenium='engTranspec-0']], on Page [Configurator]]
+2017-04-25 13:39:42 REPORTER [INFO] INFO - Info: [Clicked on element [By.id: LHMSummary], on Page [Configurator]]
+2017-04-25 13:39:42 REPORTER [INFO] PASS - StepID:[The correct Body Style is displayed in Summary page]| Expected: []|Actual: []| Info: []
+2017-04-25 13:39:43 REPORTER [INFO] INFO - Info: [*** No errors reported for test [configureEngineTransmission] test PASS *** 
+]
+2017-04-25 13:40:07 TEST [INFO] Global Properties Set: BrowserTimeOut [3], testPhase [${test.phase}], reportDebug [false]
+
+2017-04-25 13:40:07 REPORTER [INFO] *** configureExtras - Extras Select test being RUN ***
+2017-04-25 13:40:07 REPORTER [INFO] INFO - Info: [Initial Test Properties Set: Environment [intpublish], URL [http://intpublish-couk.engine.ford.com]]
+2017-04-25 13:40:07 REPORTER [INFO] INFO - Info: [Updated Test Properties from CSV: Browser [chrome]]
+2017-04-25 13:40:09 REPORTER [INFO] INFO - Info: [webDriver instantiated using: Browser [chrome], Hostname [localhost], Port [4444], BaseURL [http://intpublish-couk.engine.ford.com]]
+2017-04-25 13:40:09 REPORTER [INFO] INFO - Info: [Opening page http://intpublish-couk.engine.ford.com]
+2017-04-25 13:40:12 REPORTER [INFO] INFO - Info: [Check if page  [http://intpublish-couk.engine.ford.com] is loaded]
+2017-04-25 13:40:18 REPORTER [INFO] INFO - Info: [Clicked on element [By.id: LHMextras], on Page [Configurator]]
+2017-04-25 13:40:18 REPORTER [INFO] INFO - Info: [Clicked on element [By.selector: [data-selenium='bpCheckBox1']], on Page [Configurator]]
+2017-04-25 13:40:21 REPORTER [INFO] INFO - Info: [Clicked on element [By.id: LHMSummary], on Page [Configurator]]
+2017-04-25 13:40:21 REPORTER [INFO] PASS - StepID:[The correct Colour name is displayed in Summary page]| Expected: []|Actual: []| Info: []
+2017-04-25 13:40:22 REPORTER [INFO] INFO - Info: [*** No errors reported for test [configureExtras] test PASS *** 
+]
+2017-04-25 13:40:40 TEST [INFO] Global Properties Set: BrowserTimeOut [3], testPhase [${test.phase}], reportDebug [false]
+
+2017-04-25 13:40:40 REPORTER [INFO] *** configureModel - Model Select test being RUN ***
+2017-04-25 13:40:40 REPORTER [INFO] INFO - Info: [Initial Test Properties Set: Environment [intpublish], URL [http://intpublish-couk.engine.ford.com]]
+2017-04-25 13:40:40 REPORTER [INFO] INFO - Info: [Updated Test Properties from CSV: Browser [chrome]]
+2017-04-25 13:40:43 REPORTER [INFO] INFO - Info: [webDriver instantiated using: Browser [chrome], Hostname [localhost], Port [4444], BaseURL [http://intpublish-couk.engine.ford.com]]
+2017-04-25 13:40:43 REPORTER [INFO] INFO - Info: [Opening page http://intpublish-couk.engine.ford.com]
+2017-04-25 13:40:46 REPORTER [INFO] INFO - Info: [Check if page  [http://intpublish-couk.engine.ford.com] is loaded]
+2017-04-25 13:40:48 REPORTER [INFO] INFO - Info: [Clicked on element [By.selector: [data-selenium='bpCheckBox2']], on Page [Configurator]]
+2017-04-25 13:40:51 REPORTER [INFO] INFO - Info: [Clicked on element [By.id: LHMSummary], on Page [Configurator]]
+2017-04-25 13:40:51 REPORTER [INFO] PASS - StepID:[The correct Model name is displayed in Summary page]| Expected: []|Actual: []| Info: []
+2017-04-25 13:40:52 REPORTER [INFO] INFO - Info: [*** No errors reported for test [configureModel] test PASS *** 
+]
+2017-04-25 13:41:29 TEST [INFO] Global Properties Set: BrowserTimeOut [3], testPhase [${test.phase}], reportDebug [false]
+
+2017-04-25 13:41:29 REPORTER [INFO] *** configureTrim - Configurator select trim Test test being RUN ***
+2017-04-25 13:41:29 REPORTER [INFO] INFO - Info: [Initial Test Properties Set: Environment [intpublish], URL [http://intpublish-couk.engine.ford.com]]
+2017-04-25 13:41:29 REPORTER [INFO] INFO - Info: [Updated Test Properties from CSV: Browser [chrome]]
+2017-04-25 13:41:31 REPORTER [INFO] INFO - Info: [webDriver instantiated using: Browser [chrome], Hostname [localhost], Port [4444], BaseURL [http://intpublish-couk.engine.ford.com]]
+2017-04-25 13:41:31 REPORTER [INFO] INFO - Info: [Opening page http://intpublish-couk.engine.ford.com]
+2017-04-25 13:41:34 REPORTER [INFO] INFO - Info: [Check if page  [http://intpublish-couk.engine.ford.com] is loaded]
+2017-04-25 13:41:39 REPORTER [INFO] INFO - Info: [Clicked on element [By.id: LHMtrim], on Page [Configurator]]
+2017-04-25 13:41:39 REPORTER [INFO] INFO - Info: [Clicked on element [By.selector: [data-selenium='bpCheckBox1']], on Page [Configurator]]
+2017-04-25 13:41:42 REPORTER [INFO] INFO - Info: [Clicked on element [By.id: LHMSummary], on Page [Configurator]]
+2017-04-25 13:41:42 REPORTER [INFO] PASS - StepID:[The correct Colour name is displayed in Summary page]| Expected: []|Actual: []| Info: []
+2017-04-25 13:41:44 REPORTER [INFO] INFO - Info: [*** No errors reported for test [configureTrim] test PASS *** 
+]
+2017-04-25 13:55:49 TEST [INFO] Global Properties Set: BrowserTimeOut [3], testPhase [${test.phase}], reportDebug [false]
+
+2017-04-25 13:55:49 REPORTER [INFO] *** configureColour - Configurator select colour Test test being RUN ***
+2017-04-25 13:55:49 REPORTER [INFO] INFO - Info: [Initial Test Properties Set: Environment [intpublish], URL [http://wwwdev3.engine.ford.com]]
+2017-04-25 13:55:49 REPORTER [INFO] INFO - Info: [Updated Test Properties from CSV: Browser [chrome]]
+2017-04-25 13:55:52 REPORTER [INFO] INFO - Info: [webDriver instantiated using: Browser [chrome], Hostname [localhost], Port [4444], BaseURL [http://wwwdev3.engine.ford.com]]
+2017-04-25 13:55:52 REPORTER [INFO] INFO - Info: [Opening page http://wwwdev3.engine.ford.com]
+2017-04-25 13:56:08 REPORTER [INFO] INFO - Info: [Check if page  [http://wwwdev3.engine.ford.com] is loaded]
+2017-04-25 13:56:14 REPORTER [INFO] INFO - Info: [Clicked on element [By.id: LHMcolor], on Page [Configurator]]
+2017-04-25 13:56:14 REPORTER [INFO] INFO - Info: [Clicked on element [By.selector: [data-selenium='bpCheckBox2']], on Page [Configurator]]
+2017-04-25 13:56:19 REPORTER [INFO] INFO - Info: [Check for errors[configureColour] FAILED!!! unknown error: Element is not clickable at point (442, 458). Other element would receive the click: <div id="overlay" style="opacity: 0.7;"></div>
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 38 milliseconds
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:32:38'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: 1a96ff7cb4a6c229cc65fab5d2c84c15
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\rpette27\AppData\Local\Temp\scoped_dir868_4955, chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed)}, networkConnectionEnabled=false, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=56.0.2924.87, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+Command duration or timeout: 375 milliseconds
+Build info: version: '2.23.1', revision: 'unknown', time: '2012-06-08 12:33:29'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_45'
+Driver info: driver.version: RemoteWebDriver
+Session ID: 99953141-0f99-4ebf-bea4-36885afe1cf1]

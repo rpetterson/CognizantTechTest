@@ -1,0 +1,2 @@
+Test Name,browser,username,password,PageTitle,MyFordVehiclePageTitle,baseURL,dealer,time,firstname,lastname,contactnumber,email,bookingconfirmation,bookingcancelled
+Cancel Service Booking Czech,chrome,mgrif133@ford.com,Automation1,Login to MyFord,My Ford - My Vehicles,intpublish-cz.engine.ford.com/OSBOV?dc=CZ004AB,Pulheim,09:00,qaTester,Automation,7951204681,mgrif133@ford.com,Referencn,e-mail s potvrzen

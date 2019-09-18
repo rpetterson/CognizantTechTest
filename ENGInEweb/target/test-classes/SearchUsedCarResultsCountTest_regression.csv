@@ -1,0 +1,2 @@
+Test Name,browser,pagetitle,baseURL,postcode,minprice,maxprice,fueltype,transmission,vehicleage
+Search Used Car Results Count Test,chrome,Kuga,intpublish-couk.engine.ford.com,E11 1LP,"£4,000","£25,000",Diesel,Automatic,Up to 3 years old

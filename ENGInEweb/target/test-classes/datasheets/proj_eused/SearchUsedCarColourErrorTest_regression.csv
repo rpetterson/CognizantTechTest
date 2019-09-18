@@ -1,0 +1,2 @@
+Test Name,browser,baseURL,postcode,errorMessage,minprice
+search Vehicle,chrome,intpublish-couk.engine.ford.com,E10 5ED,"Sorry, we could not find any vehicles that match your search. Please extend your criteria.","10,000"

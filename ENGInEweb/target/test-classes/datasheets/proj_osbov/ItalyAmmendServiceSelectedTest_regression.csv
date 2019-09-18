@@ -1,0 +1,2 @@
+Test Name,browser,username,password,PageTitle,MyFordVehiclePageTitle,baseURL,dealer,firstname,lastname,contactnumber,email,bookingconfirmation,bookingcancelled,registrationnumber
+Osbov Ammend Selected Service Ireland,chrome,engineqa@gmail.com,Automation1,Login to MyFord,My Ford - My Vehicles,intpublish-it.engine.ford.com,SESTO S.GIOVANNI ,qaTester,Automation,7951204681,engineqa@gmail.com,Thank you for booking. Your booking reference number is,La sua prenotazione è stata cancellata,RE08TRE

@@ -1,0 +1,179 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<!-- PLEASE NOTE: The POM files are not to be changed without agreement 
+		from Hannes -->
+
+	<!-- Basic Information -->
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>qa-selenium</groupId>
+	<artifactId>engineweb</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<packaging>jar</packaging>
+	<!-- End Basic Information -->
+
+	<!-- Project Information -->
+	<name>enginepublicweb</name>
+	<description>qa-selenium-engineweb</description>
+	<!-- End Project Information -->
+
+	<!-- Dependencies -->
+	<dependencies>
+		<dependency>
+			<groupId>qa-selenium</groupId>
+			<artifactId>framework</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+	<!-- Build Information -->
+	<build>
+		<testResources>
+			<testResource>
+				<directory>src/main/resources</directory>
+				<filtering>true</filtering>
+				<includes>
+					<include>**/*.properties</include>
+				</includes>
+			</testResource>
+			<testResource>
+				<directory>../framework/src/main/resources</directory>
+				<filtering>true</filtering>
+				<includes>
+					<include>**/*.properties</include>
+				</includes>
+			</testResource>
+				<testResource>
+				<directory>src/test/resources/datasheets/proj_gux</directory>
+			</testResource>
+			<testResource>
+				<directory>src/test/resources/datasheets/market_ie</directory>
+			</testResource>
+			<testResource>
+				<directory>src/test/resources/datasheets/market_ie/proj_osbov</directory>
+				</testResource>
+			<testResource>
+				<directory>src/test/resources/datasheets/market_it</directory>
+			</testResource>
+			<testResource>
+				<directory>src/test/resources/datasheets/market_it/proj_osbov</directory>
+				</testResource>
+			<testResource>
+				<directory>src/test/resources/datasheets/market_ru</directory>
+			</testResource>
+			<testResource>
+				<directory>src/test/resources/datasheets/market_ru/proj_osbov</directory>
+				</testResource>
+			<testResource>
+				<directory>src/test/resources/datasheets/market_fr</directory>
+			</testResource>
+			<testResource>
+				<directory>src/test/resources/datasheets/market_fr/proj_osbov</directory>
+				</testResource>
+			<testResource>
+				<directory>src/test/resources/datasheets/market_de</directory>
+			</testResource>
+				<testResource>
+				<directory>src/test/resources/datasheets/proj_owners</directory>
+			</testResource>
+				<testResource>
+				<directory>src/test/resources/datasheets/proj_osbov</directory>
+			</testResource>
+				<testResource>
+				<directory>src/test/resources/datasheets/proj_eused</directory>
+			</testResource>
+					<testResource>
+				<directory>src/test/resources/datasheets/proj_configurator</directory>
+			</testResource>
+					<testResource>
+				<directory>src/test/resources/datasheets/proj_live_http_request</directory>
+			</testResource>
+				<testResource>
+				<directory>src/test/resources/datasheets/proj_sync</directory>
+			</testResource>
+			<testResource>
+				<directory>src/test/resources/datasheets/proj_eused_prod_mgmt</directory>
+			</testResource>			
+				<testResource>
+				<directory>src/test/resources/datasheets/proj_bnp</directory>
+			</testResource>
+			<testResource>
+				<directory>src/test/resources/datasheets</directory>
+			</testResource>
+			<testResource>
+				<directory>src/test/resources</directory>
+			</testResource>
+		</testResources>
+		<plugins>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>build-helper-maven-plugin</artifactId>
+				<version>1.5</version>
+				<executions>
+					<execution>
+						<id>add-test-source</id>
+						<phase>generate-sources</phase>
+						<goals>
+							<goal>add-test-source</goal>
+						</goals>
+						<configuration>
+							<sources>
+								<source>src/test/java</source>
+							</sources>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.5.1</version>
+				<configuration>
+					<source>1.6</source>
+					<target>1.6</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	<!-- End Build Information -->
+
+	<!-- Profiles Information -->
+	<profiles>
+		<profile>
+			<id>integration</id>
+			<properties>
+				<test.phase>integration</test.phase>
+			</properties>
+			<build>
+				<testResources>
+				</testResources>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<configuration>
+							<includes>
+								<!-- Specific order in which we want these run. -->
+								<include></include>
+							</includes>
+							<excludes>
+								<exclude>**/engineweb/**/OwnersRegisterTest.java</exclude>
+							</excludes>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
+	<!-- End Profiles Information -->
+	<!-- Properties Information -->
+	<properties>
+		<framework.env>intpublish</framework.env>
+		<webdriver.hostname>localhost</webdriver.hostname>
+		<webdriver.browser>firefox</webdriver.browser>
+		<webdriver.port>4444</webdriver.port>
+		<reporter.debug>false</reporter.debug>
+		<client.web.uri>intpublish-couk.engine.ford.com</client.web.uri>
+		<engineweb.web.uri>intpublish-couk.engine.ford.com</engineweb.web.uri>
+	</properties>
+	<!-- End Properties Information -->
+</project>

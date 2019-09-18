@@ -1,0 +1,2 @@
+Test Name,VehicleID,browser,baseURL, Price,Disc,navUrl
+Configurator Discount live test,1.21E+12,chrome,www.ford.co.uk,25470,500,/ConfigureyourCar/Galaxy?GforceMode=LIVE&myGarage=V001:CDB4:CBGB:CEBP_TI7:CFCJ:CRWE

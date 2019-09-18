@@ -1,0 +1,2 @@
+Test Name,browser,username,password,PageTitle,MyFordVehiclePageTitle,baseURL,dealer,firstname,lastname,contactnumber,email,bookingconfirmation,bookingcancelled
+Ireland Cancel Service Booking UK,chrome,mgrif133@ford.com,Automation1,Login to MyFord,My Ford - My Vehicles,intpublish-ie.engine.ford.com,dublin,qaTester,Automation,7951204681,mgrif133@ford.com,Thank you for booking,You booking has been cancelled.

@@ -1,0 +1,2 @@
+Test Name,browser,baseURL,homepagetitle,dealerlocatorlink,dealerlocatortitle,dealerlocatorlink,testdrivelink,privacypolicylink,privacypolicytitle,mockbrochurelink,mockbrochuretitle,contactuslink,fullsitelink,keepmeinformedlink,termsconditionslink,termscondtionsheading
+Verify Footer links Test,chrome,m.intpublish-couk.engine.ford.com,Global UX New homepage | Ford UK,Dealer Locator,Dealer Locator,Dealer Locator,Test Drive,Privacy Policy,Privacy,Brochure Request,Brochure Request,Contact Us,Go to Full Site,Keep me informed,Terms and Conditions,Terms and conditions 

@@ -1,0 +1,2 @@
+Test Name,browser,username,password,PageTitle,MyFordVehiclePageTitle,baseURL,dealer,firstname,lastname,contactnumber,email,bookingconfirmation,bookingcancelled,price,europrice,market
+Dealer change Repair Prices,chrome,mgrif133@ford.com,Automation1,Login to MyFord,My Ford - My Vehicles,intpublish-de.engine.ford.com,Hamburg,qaTester,Automation,7951204681,mgrif133@ford.com,Thank you for booking. Your booking reference number is,You booking has been cancelled.,155.5,"155,50",DE

@@ -1,0 +1,2 @@
+Test Name,browser,username,password,PageTitle,MyFordVehiclePageTitle,baseURL,dealer,time,firstname,lastname,contactnumber,email,bookingconfirmation,bookingcancelled
+Cancel Service Booking UK,chrome,mgrif133@ford.com,Automation1,Login to MyFord,My Ford - My Vehicles,intpublish-de.engine.ford.com,Hamburg,09:00,qaTester,Automation,7951204681,mgrif133@ford.com,Ihre Buchungsnummer ist ,Ihre Buchung wurde storniert. In Kürze erhalten sie eine E-Mail zur Bestätigung.

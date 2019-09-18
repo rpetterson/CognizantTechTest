@@ -1,0 +1,2 @@
+Test Name,browser,username,password,PageTitle,MyFordVehiclePageTitle,baseURL,dealer,time,newtime,firstname,lastname,contactnumber,email,bookingconfirmation,bookingcancelled
+Ireland Cancel Service Booking France,chrome,mgrif133@ford.com,Automation1,Login to MyFord,My Ford - My Vehicles,intpublish-fr.engine.ford.com,Montelimar,08:40,10:30,qaTester,Automation,7951204681,mgrif133@ford.com,et votre mot de passe est le,Votre rendez-vous a été annulé

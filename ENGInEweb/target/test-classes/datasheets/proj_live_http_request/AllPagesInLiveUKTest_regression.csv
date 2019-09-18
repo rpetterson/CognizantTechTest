@@ -1,0 +1,27 @@
+Test Name,browser,baseURL
+Ford UK - The Official Homepage of Ford UK,chrome,http://www.ford.co.uk/
+Ford Home - UAT,chrome,http://www.ford.co.uk/Cars
+Ford Home - UAT,chrome,http://www.ford.co.uk/CommercialVehicles
+Ford Home - UAT,chrome,http://www.ford.co.uk/GoFurther
+Ford Home - UAT,chrome,http://www.ford.co.uk/Approved-used-cars
+Ford Home - UAT,chrome,http://www.ford.co.uk/FordFleet/Overview
+Ford Home - UAT,chrome,http://www.ford.co.uk/BuyingandprotectingyourFord/Overview
+Ford Home - UAT,chrome,http://www.ford.co.uk/FordMotability
+Ford Home - UAT,chrome,http://www.ford.co.uk/OwnerServices/Overview
+Ford Home - UAT,chrome,http://www.ford.co.uk/experience-ford/Overview
+Ford Home - UAT,chrome,http://www.ford.co.uk/FordTechnologiesInAction
+Ford Home - UAT,chrome,http://www.ford.co.uk/EcoBoost
+Ford Home - UAT,chrome,http://www.ford.co.uk/Cars/CarPromotions
+Ford Home - UAT,chrome,http://www.ford.co.uk/Cars/Ka
+Ford Home - UAT,chrome,http://www.ford.co.uk/CommercialVehicles/All-New-Transit-Connect
+Ford Home - UAT,chrome,http://www.ford.co.uk/Approved-used-cars/Cars
+Ford Home - UAT,chrome,http://www.ford.co.uk/experience-ford/MotorShows/GenevaMotorShow
+Ford Home - UAT,chrome,http://www.ford.co.uk/ConfigureyourCar
+Ford Home - UAT,chrome,https://secure.ford.co.uk/OSB
+Ford Home - UAT,chrome,https://secure.ford.co.uk/SBE/OSBOV
+Ford Home - UAT,chrome,http://www.ford.co.uk/SBE/RequestATestDrive/TestDriveCar
+Ford Home - UAT,chrome,http://www.ford.co.uk/SBE/DealerLocator
+Ford Home - UAT,chrome,https://secure.ford.co.uk/OwnerServices/MyFord/MyFordSignIn
+Ford Home - UAT,chrome,http://www.ford.co.uk/OwnerServices/SYNC-and-Bluetooth-Support/SYNC-App-Link-Catalogue#/
+Ford Home - UAT,chrome,http://www.ford.co.uk/OwnerServices/SYNC-and-Bluetooth-Support/MobileCompatibility
+Ford Home - UAT,chrome,http://www.ford.co.uk/OwnerServices/Owners-Manual

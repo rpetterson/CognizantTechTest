@@ -1,0 +1,2 @@
+Test Name,browser,baseURL,postcode,searchradius,newpostcode,resultsearchradius,minprice,transmission,vehicleage,changemileage,errormessage
+search Vehicle,chrome,intpublish-couk.engine.ford.com,E10 5ED, Up to 150 miles away ,E15 5HD, Up to 50 miles away ,"1,000",Automatic,up to 3 years old,"up to 10,000 miles","Sorry, we couldn't find any vehicles that match your search. Please widen your criteria."

@@ -1,0 +1,76 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<!-- PLEASE NOTE: The POM files are not to be changed without agreement 
+		from a QA Lead -->
+
+	<!-- Basic Information -->
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>qa-selenium</groupId>
+	<artifactId>framework</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<packaging>jar</packaging>
+	<!-- End Basic Information -->
+
+	<!-- Project Information -->
+	<name>framework</name>
+	<description>qa-selenium-framework</description>
+	<!-- End Project Information -->
+
+	<!-- Build Information -->
+	<build>
+		<testResources>
+			<!-- Add properties files to build -->
+			<testResource>
+				<directory>src/main/resources</directory>
+				<filtering>true</filtering>
+				<includes>
+					<include>**/*.properties</include>
+				</includes>
+			</testResource>
+			<testResource>
+				<!-- This is the datasheets folder for the unit tests for the framework -->
+				<directory>src/test/resources/datasheets</directory>
+			</testResource>
+		</testResources>
+	</build>
+	<!-- End Build Information -->
+
+	<!-- Properties Information -->
+	<dependencies>
+		    <dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>2.23.1</version>
+		</dependency>
+			<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.8.2</version>
+		</dependency>
+		    <dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.16</version>
+		</dependency>
+		   <dependency>
+			<groupId>com.microsoft.sqlserver</groupId>
+			<artifactId>sqljdbc4</artifactId>
+			<version>4.0</version>
+		</dependency>
+			<dependency>
+			<groupId>net.sourceforge.javacsv</groupId>
+			<artifactId>javacsv</artifactId>
+			<version>2.0</version>
+		</dependency>
+	</dependencies>
+
+	<!-- Properties Information -->
+	<properties>
+		<!-- override parent property -->
+		<framework.env>wwwedu.</framework.env>
+		<webdriver.browser>none</webdriver.browser>
+		<webdriver.port>4444</webdriver.port>
+		<reporter.debug>false</reporter.debug>
+	</properties>
+	<!-- End Properties Information -->
+</project>

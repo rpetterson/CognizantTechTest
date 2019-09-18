@@ -1,0 +1,2 @@
+Test Name,browser,username,password,PageTitle,MyFordVehiclePageTitle,baseURL,dealer,firstname,lastname,contactnumber,email,bookingconfirmation,bookingcancelled,time,newtime,selectedservice
+Ammend Selected Service,chrome,engineqa@gmail.com,Automation1,Login to MyFord,My Ford - My Vehicles,intpublish-fi.engine.ford.com/osbov?dc=21700,bergen,qaTester,Automation,7951204681,engineqa@gmail.com,Kiitos varauksestanne. Varausnumeronne on,Ajanvarauksesi,09:00,10:00,MOT

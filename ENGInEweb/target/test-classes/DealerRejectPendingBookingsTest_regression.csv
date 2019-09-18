@@ -1,0 +1,2 @@
+Test Name,browser,username,password,PageTitle,MyFordVehiclePageTitle,baseURL,dealer,status,sortorder,market,contactnumber,email,bookingconfirmation,bookingcancelled
+Dealer Reject Pending Booking Test,chrome,mgrif133@ford.com,Automation1,Login to MyFord,My Ford - My Vehicles,intpublish-couk.engine.ford.com,sw19 8ye,Acknowledged,Submitted on (descending),UK,7951204681,mgrif133@ford.com,Thank you for booking. Your booking reference number is,You booking has been cancelled.

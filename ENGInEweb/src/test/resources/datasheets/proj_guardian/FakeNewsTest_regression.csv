@@ -1,0 +1,2 @@
+﻿Test Name,browser,username,password,PageTitle,baseURL,expectedURL
+Is news article fake news?,chrome,engineqa@gmail.com,Automation1,News | The Guardian,https://www.theguardian.com,https://www.theguardian.com/tone/news

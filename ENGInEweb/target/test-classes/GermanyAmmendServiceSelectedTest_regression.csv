@@ -1,0 +1,2 @@
+Test Name,browser,username,password,PageTitle,MyFordVehiclePageTitle,baseURL,dealer,firstname,lastname,contactnumber,email,bookingconfirmation,bookingcancelled,selectedservice
+Osbov Ammend Selected Service Germany,chrome,engineqa@gmail.com,Automation1,Login to MyFord,My Ford - My Vehicles,intpublish-de.engine.ford.com,Hamburg,qaTester,Automation,7951204681,engineqa@gmail.com,Ihre Buchungsnummer ist ,Ihre Buchung wurde storniert. In Kürze erhalten sie eine E-Mail zur Bestätigung.,HU Vorab-Check
